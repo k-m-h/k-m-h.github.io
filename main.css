@@ -7,9 +7,7 @@
     }
 
     .wrapper > * {
-        border: 2px solid #f08c00;
-        background-color: #ffec99;
-        border-radius: 5px;
+        background-color: #eeeeee;
         padding: 10px;
     }
 
