@@ -3,12 +3,12 @@
     .wrapper {
         max-width: 1024px;
         margin: 0 auto;
-        font: 1.2em Helvetica, arial, sans-serif;
+        font: 1.4em Helvetica, arial, sans-serif;
     }
 
     .wrapper > * {
         background-color: #eeeeee;
-        padding: 10px;
+        padding: 7px;
     }
 
     nav ul {
@@ -42,7 +42,11 @@
     "footer";
 }
 @media (min-width: 500px) {
+  .wrapper > * {
+    padding: 16px;
+    }
   .wrapper {
+    font: 1.2em Helvetica, arial, sans-serif;
     grid-template-columns: 3fr 1fr;
     grid-template-areas:
       "header  header"
@@ -56,7 +60,11 @@
   }
 }
 @media (min-width: 700px) {
+  .wrapper > * {
+    padding: 16px;
+    }
   .wrapper {
+    font: 1.1em Helvetica, arial, sans-serif;
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-areas:
       "header content sidebar"
