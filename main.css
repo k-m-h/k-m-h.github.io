@@ -28,9 +28,6 @@
 .side {
   grid-area: sidebar;
 }
-.ad {
-  grid-area: ad;
-}
 .main-footer {
   grid-area: footer;
 }
@@ -42,17 +39,16 @@
     "nav"
     "content"
     "sidebar"
-    "ad"
     "footer";
 }
 @media (min-width: 500px) {
   .wrapper {
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-areas:
       "header  header"
       "nav     nav"
-      "sidebar content"
-      "ad      footer";
+      "content sidebar"
+      "footer  footer";
   }
   nav ul {
     display: flex;
@@ -65,7 +61,7 @@
     grid-template-areas:
       "header content sidebar"
       "nav    content sidebar"
-      "nav    content ad"
+      "nav    content sidebar"
       "footer footer  footer"
    }
    nav ul {
