@@ -3,11 +3,11 @@ a {
   color: #50C1FD;
   text-decoration: none; /* no underline */
 }
-a:active {
-  color: #FF6D37;
-}
 a:hover {
   color: #7AD1FF;
+}
+a:active {
+  color: #FF6D37;
 }
 body {
   background-image: url(background.jpg);
